@@ -1,0 +1,103 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 56px;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.profile-image {
+  max-width: 300px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a {
+  color: #6c757d;
+  font-size: 1.5rem;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.page-header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 50px 0;
+  margin-bottom: 30px;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #007bff;
+}
+
+.timeline li {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -36px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #007bff;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #007bff;
+}
+
+#contact-form .form-control {
+  border-radius: 0;
+}
+
+#contact-form .btn {
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+footer {
+  margin-top: 50px;
+}
