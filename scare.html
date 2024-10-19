@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img
+      src="imgs/Screenshot 2024-10-19 044845.png"
+      alt="spooky squidward"
+      class="scare"
+    />
+    <audio id="screamAudio" src="the-rake-scream.mp3" preload="auto"></audio>
+    <script>
+      window.onload = function () {
+        document.getElementById("screamAudio").play();
+      };
+    </script>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      .scare {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </body>
+</html>
